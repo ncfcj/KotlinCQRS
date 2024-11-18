@@ -1,0 +1,12 @@
+ktor:
+  development: true
+  application:
+    modules:
+      - com.nilton.ApplicationKt.module
+  database:
+    url: "jdbc:postgresql://localhost:5432/db"
+    driver: "org.postgresql.Driver"
+    user: "postgres"
+    password: "postgres"
+  deployment:
+    port: 8080
